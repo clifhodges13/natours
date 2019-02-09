@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  /* put the border-box in the body declaration and then put inherit here on the universal selector so that every element in the body inherits the border-box property */
+
+}
+
+html {
+  //this defines what 1rem equals
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
