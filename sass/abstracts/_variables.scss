@@ -1,7 +1,17 @@
+// COLORS
+
 $color-primary: #7ed56f;
 $color-primary-light: #55c57a;
 $color-primary-dark: #28b485;
 
 $color-grey-dark: #777;
+$color-grey-light-1: #f7f7f7;
 $color-white: #fff;
 $color-black: #000;
+
+
+// GRID
+
+$grid-width: 114rem;
+$gutter-verticle: 8rem; // since your font-size is 10px, to convert px to rem just divide by 10
+$gutter-horizontal: 6rem;
