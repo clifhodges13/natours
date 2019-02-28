@@ -37,4 +37,6 @@ body {
 ::selection {
   background-color: $color-primary;
   color: $color-white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
